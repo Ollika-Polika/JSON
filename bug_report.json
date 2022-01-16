@@ -1,4 +1,24 @@
 "Bug report id": {
-         "id": 1,
-         "title": "Chat - User cannot rename group conversation"
+         "ID":    1,
+         "Title": "Chat - User cannot rename group conversation"
+}
+"Details": {
+         "Type":  "Bug",
+         "Priority": "Medium",
+         "Affects_Version": "None",
+         "Component": "None",
+         "Labels": "None",
+         "Sprint": "S22"
+}
+"Description": {
+         "Steps_to_reproduce": {
+                  1: "Log in",
+                  2: "Open chat dialog",
+                  3: "Click on the Setting button",
+                  4: "Add user",
+                  5: "Add user to a group conversation",
+                  6: "Try to rename this group conversation"
+         }
+         "Expected_result": "User can rename group conversation",
+         "Actual_result": "Rename conversation button is disabled"
 }
